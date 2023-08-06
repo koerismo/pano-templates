@@ -1,0 +1,10 @@
+# Editor files
+.idea/
+.vs/
+
+# Packages
+node_modules/
+
+# Caches
+*.uuid
+conf.d

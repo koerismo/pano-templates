@@ -1,0 +1,28 @@
+<root>
+	<styles>
+		<include src="file://{styles}/pages/main-menu/index.css" />
+	</styles>
+
+	<scripts>
+		<include src="file://{scripts}/pages/main-menu/index.js" />
+	</scripts>
+
+	<ChaosMainMenu>
+		<Panel id="MainMenuInput">
+
+			<!-- The contents of your page goes here! -->
+			<Label class="title" text="Hello world!" />
+			<Label class="subtitle" text="This is a barebones Panorama template." />
+
+		</Panel>
+
+		<!-- Make sure these are at the bottom to get the z-order right -->
+		<ChaosPopupManager id="PopupManager" />
+		<ContextMenuManager id="ContextMenuManager" />
+		<ChaosTooltipManager id="TooltipManager" hittest="false" />
+
+		<!-- Doesn't actually include the notifications, but we use its position to figure out where to show them -->
+		<Panel id="SteamNotificationsPlaceholder" hittest="false" />
+
+	</ChaosMainMenu>
+</root>
