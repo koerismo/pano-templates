@@ -1,18 +1,38 @@
 <root>
 	<styles>
-		<include src="file://{styles}/pages/main-menu/index.css" />
+		<include src="file://{styles}/pages/main-menu/index.scss" />
 	</styles>
 
 	<scripts>
 		<include src="file://{scripts}/pages/main-menu/index.js" />
 	</scripts>
 
+	<!-- The game will crash if these panels are not present. This will be fixed! -->
+	<snippets>
+		<snippet name="MainMenuMovieSnippet">
+			<Panel>
+				<Movie
+					id="MainMenuMovie"
+					hittest="false"
+					style="visibility: collapse"
+				></Movie>
+			</Panel>
+		</snippet>
+	</snippets>
+
 	<ChaosMainMenu>
+
+		<!-- The game will crash if this panel is not present. This will be fixed! -->
+		<Panel id="MainMenuMovieParent" />
+
 		<Panel id="MainMenuInput">
 
 			<!-- The contents of your page goes here! -->
-			<Label class="title" text="Hello world!" />
-			<Label class="subtitle" text="This is a barebones Panorama template." />
+			<Panel class="center">
+				<Label class="title" text="Hello world!" />
+				<Label class="subtitle" text="This is a barebones Panorama template." />
+				<TextButton onactivate="quit()" text="Quit" />
+			</Panel>
 
 		</Panel>
 

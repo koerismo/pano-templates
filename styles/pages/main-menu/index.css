@@ -20,3 +20,14 @@ Label.title {
 Label.subtitle {
 	font-size: 14px;
 }
+
+TextButton {
+	margin: 5px 0;
+	padding: 8px 14px;
+	border: 1px solid #0005;
+	horizontal-align: right;
+}
+
+TextButton:hover {
+	border: 1px solid #000a;
+}

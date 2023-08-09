@@ -1,0 +1,6 @@
+{
+	"files.associations": {
+		"styles/**/*.css": "panocss",
+		"styles/**/*.scss": "panoscss"
+	}
+}

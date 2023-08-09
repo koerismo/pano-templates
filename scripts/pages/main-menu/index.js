@@ -1,1 +1,3 @@
-$.Msg('Hello, console!');
+function quit() {
+	GameInterfaceAPI.ConsoleCommand('quit');
+}
