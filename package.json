@@ -3,5 +3,23 @@
 	"version": "1.0.0",
 	"description": "A barebones template for Strata Source's Panorama UI.",
 	"author": "Koerismo",
-	"license": "MIT"
+	"license": "MIT",
+
+	"scripts": {
+		"watch": "tsc --watch",
+		"build": "npm run lint && tsc",
+		"lint": "eslint scripts/ --ext .ts"
+	},
+
+	"devDependencies": {
+		"pano-typed": "github:koerismo/pano-typed",
+
+		"typescript": "^5.1.6",
+		"@typescript-eslint/eslint-plugin": "^6.3.0",
+		"@typescript-eslint/parser": "^6.3.0",
+
+		"eslint": "^8.46.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0"
+	}
 }

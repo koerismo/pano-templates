@@ -1,5 +1,6 @@
 {
 	"recommendations": [
-		"braemie.panorama-css"
+		"braemie.panorama-css",
+		"dbaeumer.vscode-eslint"
 	]
 }

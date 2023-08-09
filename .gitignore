@@ -8,3 +8,6 @@ node_modules/
 # Caches
 *.uuid
 conf.d
+
+# Build files
+.build/

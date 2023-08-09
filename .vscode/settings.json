@@ -2,5 +2,21 @@
 	"files.associations": {
 		"styles/**/*.css": "panocss",
 		"styles/**/*.scss": "panoscss"
-	}
+	},
+
+	"[typescript]": {
+		"editor.formatOnSave": true
+	},
+
+	"[xml]": {
+		"editor.formatOnSave": true
+	},
+
+	"[panocss]": {
+		"editor.formatOnSave": true
+	},
+
+	"[panoscss]": {
+		"editor.formatOnSave": true
+	},
 }

@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "NodeNext",
+		"rootDir": "scripts/",
+		"outDir": ".build/scripts/",
+
+		"alwaysStrict": true,
+		"isolatedModules": true,
+		"allowJs": true,
+		"strict": true,
+
+		"lib": ["ES2020"],
+		"typeRoots": ["node_modules/pano-typed"],
+		"types": ["p2ce"]
+	},
+	"include": ["scripts/"],
+	"exclude": ["*.d.ts"]
+}
