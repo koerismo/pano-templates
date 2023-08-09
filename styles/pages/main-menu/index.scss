@@ -26,8 +26,8 @@ TextButton {
 	padding: 8px 14px;
 	border: 1px solid #0005;
 	horizontal-align: right;
-}
 
-TextButton:hover {
-	border: 1px solid #000a;
+	&:hover {
+		border: 1px solid #000a;
+	}
 }
