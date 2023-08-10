@@ -6,5 +6,8 @@
 
 	"[typescript]": {
 		"editor.formatOnSave": true
-	}
+	},
+
+	"panocss.lint.idSelector": "ignore",
+	"panoscss.lint.idSelector": "ignore",
 }
