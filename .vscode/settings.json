@@ -6,17 +6,5 @@
 
 	"[typescript]": {
 		"editor.formatOnSave": true
-	},
-
-	"[xml]": {
-		"editor.formatOnSave": true
-	},
-
-	"[panocss]": {
-		"editor.formatOnSave": true
-	},
-
-	"[panoscss]": {
-		"editor.formatOnSave": true
-	},
+	}
 }
