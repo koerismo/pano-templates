@@ -11,11 +11,7 @@
 	<snippets>
 		<snippet name="MainMenuMovieSnippet">
 			<Panel>
-				<Movie
-					id="MainMenuMovie"
-					hittest="false"
-					style="visibility: collapse"
-				></Movie>
+				<Movie id="MainMenuMovie" hittest="false" ></Movie>
 			</Panel>
 		</snippet>
 	</snippets>
