@@ -1,0 +1,36 @@
+@use '../theme' as *;
+
+ChaosLoadingScreen {
+	width: 100%;
+	height: 100%;
+
+	background-color: $dark-800;
+	color: $dark-300;
+
+	opacity: 1.0;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+
+	// This is a hardcoded class. Boowomp.
+	&.loading-screen--closing {
+		opacity: 0.0;
+	}
+}
+
+Panel#container {
+	margin: 15%;
+}
+
+Panel#details {
+	margin-bottom: 10px;
+}
+
+ProgressBar {
+	height: 4px;
+	background-color: $dark-700;
+
+	> #ProgressBar_Left {
+		background-color: $dark-500;
+	}
+}
