@@ -2,5 +2,8 @@
 	"files.associations": {
 		"styles/**/*.css": "panocss",
 		"styles/**/*.scss": "panoscss"
-	}
+	},
+
+	"panocss.lint.idSelector": "ignore",
+	"panoscss.lint.idSelector": "ignore"
 }
