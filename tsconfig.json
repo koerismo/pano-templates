@@ -2,16 +2,14 @@
 	"compilerOptions": {
 		"target": "ESNext",
 		"module": "ESNext",
-		"moduleResolution": "NodeNext",
 		"rootDir": "scripts/",
 		"outDir": ".build/scripts/",
 
 		"alwaysStrict": true,
-		"isolatedModules": true,
 		"allowJs": true,
 		"strict": true,
 
-		"lib": ["ES2020"],
+		"lib": ["ES2022"],
 		"typeRoots": ["node_modules/pano-typed"],
 		"types": ["p2ce"]
 	},
