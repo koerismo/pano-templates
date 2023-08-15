@@ -1,10 +1,10 @@
 <root>
 	<styles>
-		<include src="file://{styles}/pages/main-menu/index.scss" />
+		<include src="file://{styles}/pages/main-menu.scss" />
 	</styles>
 
 	<scripts>
-		<include src="file://{scripts}/pages/main-menu/index.js" />
+		<include src="file://{scripts}/pages/main-menu.js" />
 	</scripts>
 
 	<!-- The game will crash if these panels are not present. This will be fixed! -->
